@@ -3,4 +3,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{}],"Focm":[function(require,module,exports) {
 "use strict";var n=require("hyperapp"),t=["👹","😱","👾","🤧","🙈","👨🏽‍🦳","🥵"],e={emoji:t[0]},i=function(n){return n[Math.floor(Math.random()*n.length)]},r=function(n){return Object.assign({},n,{emoji:i(t)})},o=function(n,t){var e=setInterval(function(){return n(t.action)},t.time);return function(){return clearInterval(e)}},a=function(n){return[[o,{time:250,action:r}]]},c=function(t){return(0,n.h)("main",{},[(0,n.h)("div",{class:"random-emoji"},t.emoji),(0,n.h)("h1",{},"c0v1d"),(0,n.h)("div",{class:"coming-soon"},"Coming Soon...")])};(0,n.app)({init:e,view:c,subscriptions:a,node:document.getElementById("game")});
 },{"hyperapp":"S39F"}]},{},["Focm"], null)
-//# sourceMappingURL=/c0v1d.250a06b5.js.map
+//# sourceMappingURL=c0v1d.250a06b5.js.map
