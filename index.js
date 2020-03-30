@@ -1,6 +1,4 @@
 import { h, app } from 'hyperapp'
-import { interval } from '@hyperapp/time'
-
 
 // INITIAL STATE
 
