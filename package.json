@@ -2,19 +2,23 @@
   "name": "c0v1d",
   "version": "0.0.1",
   "description": "A game of constant pandemics",
+  "homepage": "https://github.com/gungorkocak/c0v1d",
   "main": "index.js",
   "scripts": {
     "start": "npx parcel index.html",
     "build": "npx parcel build index.html",
+    "deploy": "npm run build && gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "gh-pages": "^2.2.0",
     "parcel-bundler": "^1.12.4"
   },
   "dependencies": {
-    "hyperapp": "^2.0.4"
+    "hyperapp": "^2.0.4",
+    "uninstall": "0.0.0"
   }
 }
