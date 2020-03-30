@@ -7,7 +7,7 @@
   "scripts": {
     "start": "npx parcel index.html",
     "build": "npx parcel build index.html --public-url ./",
-    "deploy": "npm run build && git add dist && git commit -m 'page build' && hub push && npx gh-pages -d dist",
+    "deploy": "npm run build && git add dist && git commit -m 'page build' && git push && npx gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
