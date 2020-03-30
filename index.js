@@ -1,6 +1,5 @@
 import { h, app } from 'hyperapp'
 
-
 // INITIAL STATE
 
 const emojis = [
