@@ -1,0 +1,20 @@
+{
+  "name": "c0v1d",
+  "version": "0.0.1",
+  "description": "A game of constant pandemics",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx parcel index.html",
+    "build": "npx parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "hyperapp": "^2.0.4"
+  }
+}
