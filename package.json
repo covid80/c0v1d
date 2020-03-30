@@ -14,6 +14,10 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-hyperapp": "^2.3.0",
     "gh-pages": "^2.2.0",
     "parcel-bundler": "^1.12.4"
   },
